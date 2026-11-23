@@ -1,0 +1,6 @@
+.reservation-layout { display: grid; grid-template-columns: minmax(0,1.9fr) minmax(240px,1fr); gap: 20px; }
+.rehearsal-queue article { display: flex; flex-wrap: wrap; justify-content: space-between; border-block-end: 1px solid var(--line); padding: 12px 0; gap: 12px; }
+.rehearsal-queue h2, .rehearsal-queue p { margin: 4px 0; }
+.rehearsal-queue small { color: var(--muted); }
+.rehearsal-queue form { margin-top: 8px; }
+@media (max-width: 720px) { .reservation-layout { grid-template-columns: 1fr; } }

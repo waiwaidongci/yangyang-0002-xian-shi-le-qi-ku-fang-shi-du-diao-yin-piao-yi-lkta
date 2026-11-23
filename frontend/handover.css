@@ -1,0 +1,5 @@
+.handover-ledger { display: grid; grid-template-columns: minmax(0,2fr) minmax(230px,1fr); gap: 18px; align-items: start; }
+.condition-note { padding: 13px 15px; margin-bottom: 10px; border-inline-start: 4px solid var(--accent); background: var(--paper); }
+.condition-note p { margin: 6px 0; }
+.condition-note[data-clear] { border-inline-start-color: var(--warning); }
+@media (max-width: 720px) { .handover-ledger { grid-template-columns: 1fr; } }

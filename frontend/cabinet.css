@@ -1,0 +1,8 @@
+.cabinet-floor { display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); gap: 16px; }
+.cabinet-floor section { border: 1px solid var(--line); padding: 16px; background: var(--paper); }
+.cabinet-readings { display: flex; justify-content: space-between; gap: 8px; }
+.cabinet-floor meter { width: 100%; }
+.cabinet-floor form, .placement-form, .cabinet-custody { margin-top: 13px; }
+.placement-form { grid-template-columns: repeat(3,max-content); align-items: end; }
+.cabinet-custody section { padding: 10px 0; border-bottom: 1px solid var(--line); }
+@media (max-width: 650px) { .placement-form { grid-template-columns: 1fr; } }
